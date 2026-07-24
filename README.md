@@ -4,6 +4,8 @@ Cinnamon panel applet for [llama.cpp](https://github.com/ggml-org/llama.cpp) rou
 
 ![Screenshot](screenshot.png)
 
+> **28 tok/s on a laptop?** See our [35B MTP setup report](https://github.com/githabideri/llmlab/blob/main/reports/2026-07-24_report_35b-mtp-laptop-setup.md) — running Qwen3.6-35B at 28 tokens/second on a Ryzen 7840U with integrated graphics. Full benchmark, configs, and reproduction guide.
+
 ## What this is
 
 A lightweight panel applet that integrates with llama.cpp's built-in router API. Shows how many models are loaded, lets you load/unload individual models with a click, and links directly to your config files.
@@ -71,7 +73,7 @@ ExecStart=/path/to/llama-server \
   --models-max 2
 ```
 
-See [llama.cpp router docs](https://github.com/ggml-org/llama.cpp/docs/server.md) for full setup.
+See [llama.cpp server docs](https://github.com/ggml-org/llama.cpp/blob/master/docs/server.md) for full setup.
 
 ## API Endpoints Used
 
