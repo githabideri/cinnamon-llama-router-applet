@@ -34,7 +34,7 @@ A lightweight panel applet that integrates with llama.cpp's built-in router API.
 git clone https://github.com/githabideri/llama-router-applet.git
 
 # Copy to your applets directory
-cp -r llama-router-applet ~/.local/share/cinnamon/applets/llama-router@homelab
+cp -r llama-router-applet ~/.local/share/cinnamon/applets/llama-router@githabideri
 
 # Reload Cinnamon: Alt+F2 → type 'r' → Enter
 ```
@@ -44,19 +44,19 @@ cp -r llama-router-applet ~/.local/share/cinnamon/applets/llama-router@homelab
 ```bash
 # Clone and symlink for live editing
 git clone https://github.com/githabideri/llama-router-applet.git
-ln -s $(pwd)/llama-router-applet ~/.local/share/cinnamon/applets/llama-router@homelab
+ln -s $(pwd)/llama-router-applet ~/.local/share/cinnamon/applets/llama-router@githabideri
 ```
 
 ### Uninstall
 
 ```bash
-rm -rf ~/.local/share/cinnamon/applets/llama-router@homelab
+rm -rf ~/.local/share/cinnamon/applets/llama-router@githabideri
 # Reload Cinnamon: Alt+F2 → 'r' → Enter
 ```
 
 ## Configuration
 
-The applet connects to `http://127.0.0.1:8082` by default. To change the port or host, edit `files/llama-router@homelab/applet.js` and update the URLs in `fetchModels()` and `loadModel()`/`unloadModel()`.
+The applet connects to `http://127.0.0.1:8082` by default. To change the port or host, edit `applet.js` and update the URLs in `fetchModels()` and `loadModel()`/`unloadModel()`.
 
 ### Router setup
 
@@ -94,7 +94,7 @@ cinnamon-llama-router-applet/
 └── applet.js              # Main applet code
 ```
 
-The entire repo **is** the applet directory. Copy it as `llama-router@homelab` into your applets folder.
+The entire repo **is** the applet directory. Copy it as `llama-router@githabideri` into your applets folder.
 
 ## Development
 
