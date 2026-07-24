@@ -4,7 +4,7 @@ Cinnamon panel applet for [llama.cpp](https://github.com/ggml-org/llama.cpp) rou
 
 ![Screenshot](screenshot.png)
 
-> **28 tok/s on a laptop?** See our [35B MTP setup report](https://github.com/githabideri/llmlab/blob/main/reports/2026-07-24_report_35b-mtp-laptop-setup.md) — running Qwen3.6-35B at 28 tokens/second on a Ryzen 7840U with integrated graphics. Full benchmark, configs, and reproduction guide.
+> **28 tok/s on a laptop?** See the [35B MTP setup report in llmlab](https://github.com/githabideri/llmlab/blob/main/reports/2026-07-24_report_35b-mtp-laptop-setup.md) — running Qwen3.6-35B at 28 tokens/second on a Ryzen 7840U with integrated graphics. Full benchmark, configs, and reproduction guide.
 
 ## What this is
 
