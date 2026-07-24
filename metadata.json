@@ -1,5 +1,5 @@
 {
-    "uuid": "llama-router@homelab",
+    "uuid": "llama-router@githabideri",
     "name": "Llama Router",
     "description": "Switch llama.cpp models from the Cinnamon panel",
     "version": "1.0",
