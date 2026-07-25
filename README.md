@@ -129,3 +129,4 @@ GPL-3.0 — see [LICENSE](LICENSE) for details.
 - Built for [llama.cpp](https://github.com/ggml-org/llama.cpp) router mode
 - Inspired by the [temperature@fevimu](https://github.com/linuxmint/cinnamon-spices-applets/tree/master/temperature@fevimu) applet structure
 - Router API documented by [glukhov.org](https://www.glukhov.org/llm-hosting/llama-cpp/unload-llama-cpp-router-models/)
+# SYNC TEST 2
